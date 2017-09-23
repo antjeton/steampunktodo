@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html>
+
+  <head>
+     <link href="resources/style.css"type="text/css" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+  <title>steampunktodos</title>
+
+  </head>
+   <body>
+     <div class="container">
+       <div class=topper>
+
+      <input id="addTodoTextInput" type="text" placeholder=" Enter things to-do...">
+       <button id="add" onclick="handlers.addTodo()">+</button>
+        <p id="datewindow"></p>
+
+         </div>
+   <br> <br> <br> <br> <br> <br> <br> <br>
+
+   <!-- <div class= "alltog">
+
+      <button id="togall" onclick="handlers.toggleAll()">Toggle All</button>
+    </div><br> <br> <br> <br>-->
+<div class="controllers">
+
+         <button id="togall" onclick="handlers.toggleAll()">Toggle All</button><br><br>
+
+         <button id="togcomp" onclick="handlers.toggleCompleted()">Toggle Completed</button><br><br>
+         <input id="toggleCompletedPositionInput" type="number"><br><br>
+
+
+
+
+         <button id="chanto" onclick="handlers.changeTodo()">Change Todo</button><br><br>
+         <input id="changeTodoPositionInput" type="number"><br><br> <input id="changeTodoTextInput" type="text">
+
+
+</div><br><br>
+
+<div class="gearback">
+<br><br><br>
+
+<div id="ulcontainer">
+
+    <ul>
+    </ul>
+</div>
+
+</div>
+</div>
+
+
+
+      <script src="resources/js.js"></script>
+  </body>
+
+</html>
